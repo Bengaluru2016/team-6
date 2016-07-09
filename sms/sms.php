@@ -4,7 +4,7 @@
     	$hash = 'a1b2933f348e1364d1181df90530426dcd5b210c';
     	
     	// Message details
-        $mobnum=document.getElementById("phnum");
+        $mobnum = $_POST['phnum'];
     
     	$numbers = array();
         array_push($numbers,$mobnum);
@@ -25,5 +25,5 @@
     	curl_close($ch);
     	
     	// Process your response here
-    	//echo $response;
+    	echo $response;
     ?>
