@@ -66,7 +66,7 @@ body{
 
 }
 .login-form {
-	background:url(1.jpg)  no-repeat center fixed;
+	background:#fff;
 	width:32%;
 	margin:9% auto 4% auto;
  	position: relative;
@@ -141,7 +141,7 @@ input[type="submit"]{
 	font-size:18px;
 	display: inline-block;
 	font-weight:600;
-	color: #fed136;
+	color: #fff;
 	transition: 0.1s all;
 	-webkit-transition: 0.1s all;
 	-moz-transition: 0.1s all;
