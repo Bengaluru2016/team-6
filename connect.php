@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <html>
 <head>
 </head>
@@ -19,3 +20,20 @@ if(!mysqli_select_db($conn,$database))
 ?>
 </body>
 </html>
+=======
+<?php
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "charts";
+
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+} 
+echo "Connected successfully";
+?>
+>>>>>>> origin/master
