@@ -1,7 +1,7 @@
     <?php
     	// Textlocal account details
     	$username = 'commonbazinga@gmail.com';
-    	$hash = 'GM8to3driKk-BtmmhwQX8sgpKv8mvieUmHH7M8Efdv';
+    	$hash = 'a1b2933f348e1364d1181df90530426dcd5b210c';
     	
     	// Message details
         $mobnum=document.getElementById("phnum");
