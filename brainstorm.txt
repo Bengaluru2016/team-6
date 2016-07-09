@@ -45,3 +45,5 @@
 
 Feel free to add/modify.
 we will wind up this soon.
+
+Shortlist them and we will find a way of combining them into an application
