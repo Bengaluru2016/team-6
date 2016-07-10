@@ -36,22 +36,19 @@
                     <a class="active" >Leaderboard</a>
                 </li>
                 <li>
-                   <a href="#">report</a>
+                   <a href="/rangde/report/chart.html">report</a>
                 </li>
                 <li>
-                    <a href="#">stories</a>
+                    <a href="/rangde/index1.html">stories</a>
                 </li>
                 <li>
-                    <a href="#">chat</a>
+                    <a href="/rangde/dis.php">chat</a>
                 </li>
                 <li>
-                    <a href="#">About</a>
+                    <a href="https://www.rangde.org/about-us">About</a>
                 </li>
                 <li>
-                    <a href="#">Services</a>
-                </li>
-                <li>
-                    <a href="#">Contact</a>
+                    <a href="">Social Interaction</a>
                 </li>
             </ul>
         </div>
