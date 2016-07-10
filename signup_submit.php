@@ -49,6 +49,6 @@
 <html>
 	<head></head>
 	<body>
-		<p>Click <a href="/rangde/home.html">here</a> to head to home page or sign in</p>
+		<p>Click <a href="/rangde/signin.php">here</a> to head to home page or sign in</p>
 	</body>
 </html>		
