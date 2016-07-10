@@ -155,10 +155,15 @@
                                     }
                                 }
                             }
+<<<<<<< HEAD
                             catch(Exception $e)
                             {
                                 $e.getMessage();
                             }   
+=======
+                            catch(excptions $e)
+                            {}
+>>>>>>> origin/master
                         ?>
                      <!--<tr>
                      <td>Peter</td>
@@ -187,7 +192,10 @@
                      <td><a href="www.facebook.com" </a><td>
                      </tr>-->
                      </table>
-
+</div>
+</div>
+</div>
+</div>
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
