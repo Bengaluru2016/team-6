@@ -12,8 +12,8 @@
 <?php
 session_start();
 $server = 'localhost';
-$username   = 'root';
-$password   = 'password';
+$username   = 'admin';
+$password   = 'mypassword';
 $database   = 'rangde_cfg';
 
 $conn =  mysqli_connect($server, $username, $password);
