@@ -58,7 +58,7 @@
 				<div class="login-group">
 					<div class="form-group">
 						<label for="lg_username" class="sr-only">E-mail</label>
-						<input type="text" class="form-control" id="lg_email" placeholder="E-mail" required id = "fid" name = "fid" >
+						<input type="text" class="form-control" id="lg_email" placeholder="Username" required id = "fid" name = "fid" >
 					</div>
 					<div class="form-group">
 						<label for="lg_password" class="sr-only">Password</label>

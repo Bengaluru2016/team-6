@@ -46,10 +46,10 @@ else
     $mysql_hostname = 'localhost';
 
     /*** mysql username ***/
-    $mysql_username = 'admin';
+    $mysql_username = 'root';
 
     /*** mysql password ***/
-    $mysql_password = 'mypassword';
+    $mysql_password = 'password';
 
     /*** database name ***/
     $mysql_dbname = 'rangde_cfg';
@@ -87,10 +87,8 @@ else
 
                 /*** tell the user we are logged in ***/
                 $message = 'You are now logged in';
-                echo "HI";
-                /*** include the landing page of the user logged in here ***/            
-        }
-
+                include 'landing.php';
+		}
 
     }
     catch(Exception $e)

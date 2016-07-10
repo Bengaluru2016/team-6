@@ -15,9 +15,9 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="landing page/landing page/css/simple-sidebar.css" rel="stylesheet">
-    <link href="landing page/landing page/css/progress.css" rel="stylesheet">
-    <link href="landing page/landing page/css/button.css" rel="stylesheet">
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+    <link href="css/progress.css" rel="stylesheet">
+    <link href="css/button.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -73,30 +73,24 @@
                                 catch (Exception $e)
                                 {
                                     /*** if we are here, something is wrong in the database ***/
-                                    $message = 'We are unable to process your request. Please try again later"';
                                 } 
                                 echo $message;
                                 ?>
                     </a>
                 </li>
                 <li>
-                    <a href="/rangde/leaderboard/leader.php">Leaderboard</a>
+                    <a href="leader.php">Leaderboard</a>
                 </li>
                 <li>
-                   <a href="/rangde/report/chart.html">report</a>
+                   <a href="chart.html">Report</a>
                 </li>
                 <li>
-                    <a href="/rangde/index1.html">stories</a>
+                    <a href="index1.html">Success Stories</a>
                 </li>
                 <li>
-                    <a href="/rangde/dis.php">chat</a>
+                    <a href="dis.php">Discussion Forum</a>
                 </li>
-                <li>
-                    <a href="https://www.rangde.org/about-us">About</a>
-                </li>
-                <li>
-                    <a href="/rangde/social_interaction/index.html">Social interaction</a>
-                </li>
+              
             </ul>
         </div>
         <!-- /#sidebar-wrapper -->
