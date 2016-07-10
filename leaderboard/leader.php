@@ -29,7 +29,48 @@
             <ul class="sidebar-nav">
                 <li class="sidebar-brand">
                     <a href="D:/login templates/landing page/landing page/landing.html">
-                        Hi User!
+                        <?php try 
+                               {
+                                    /*** connect to database ***/
+                                    /*** mysql hostname ***/
+                                    $mysql_hostname = 'localhost';
+                                     /*** mysql username ***/
+                                    $mysql_username = 'admin';
+                                    /*** mysql password ***/
+                                    $mysql_password = 'mypassword';
+                                    /*** database name ***/
+                                    $mysql_dbname = 'rangde_cfg';
+
+                                    $dbh = new PDO("mysql:host=$mysql_hostname;dbname=$mysql_dbname", $mysql_username, $mysql_password);
+        
+                                    /*** set the error mode to excptions ***/
+                                    $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+                                    /*** prepare the select ***/
+                                    $stmt = $dbh->prepare("SELECT username FROM user WHERE username = :fid");
+                                    /*** bind the parameters ***/
+                                    $stmt->bindParam(':fid', $_SESSION['user_id'], PDO::PARAM_INT);//here user id is fid i.e. login id
+                                    /*** execute the prepared statement ***/
+                                    $stmt->execute();
+                                     /*** check for a result ***/
+                                    $fname = $stmt->fetchColumn();
+        
+                                    if($fname == false)
+                                    {
+                                        $message = 'Access Error';
+                                    }
+                                    else
+                                    {
+                                        $message = 'Welcome '.$fname;
+                                    }
+                                }
+                                catch (Exception $e)
+                                {
+                                    /*** if we are here, something is wrong in the database ***/
+                                    $message = 'We are unable to process your request. Please try again later"';
+                                } 
+                                echo $message;
+                                ?>
+
                     </a>
                 </li>
                 <li>
