@@ -12,10 +12,10 @@
     $mysql_hostname = 'localhost';
 
     /*** mysql username ***/
-    $mysql_username = 'admin';
+    $mysql_username = 'root';
 
     /*** mysql password ***/
-    $mysql_password = 'mypassword';
+    $mysql_password = 'password';
 
     /*** database name ***/
     $mysql_dbname = 'rangde_cfg';
@@ -37,11 +37,11 @@
         $stmt->bindParam(':password', $password);
         $stmt->execute();
 
-        echo "You are successfully registered!!";
+       // echo "You are successfully registered!!";
     }
     catch(Exception $e)
     {
-    	echo $sql . "<br>" . $e->getMessage();
+    	echo $e->getMessage();
     }
     $conn = null;
         
@@ -49,6 +49,8 @@
 <html>
 	<head></head>
 	<body>
-		<p>Click <a href="/rangde/home.html">here</a> to head to home page or sign in</p>
+		<div class="jumbotron">
+		<h1>Registration successful!!</h1>
+		</div>
 	</body>
 </html>		
