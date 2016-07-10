@@ -113,6 +113,11 @@
                                         $rank++;
                                     }
                                 }
+                            }
+                            catch(Exception $e)
+                            {
+                                $e.getMessage();
+                            }   
                         ?>
                      <!--<tr>
                      <td>Peter</td>
