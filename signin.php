@@ -62,7 +62,7 @@
 					</div>
 					<div class="form-group">
 						<label for="lg_password" class="sr-only">Password</label>
-						<input type="password" class="form-control" id="lg_password" required id = "fid" name = "fid"  placeholder="Password">
+						<input type="password" class="form-control" id="lg_password" required id = "fpwd" name = "fpwd"  placeholder="Password">
 					</div>
 				</div>
 				<button type="submit" class="login-button"><i class="fa fa-chevron-right"></i></button>
