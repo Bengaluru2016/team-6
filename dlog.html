@@ -1,5 +1,9 @@
 <html lang="en">
+
 <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Rang De</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/login.css" rel="stylesheet">
@@ -7,10 +11,13 @@
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.13.1/jquery.validate.min.js"></script>
+<meta charset="utf-8">
 	<script type="application/x-javascript">
 		addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); }
 	</script>
+	<!--webfonts-->
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:600italic,400,300,600,700' rel='stylesheet' type='text/css'>
+	<!--client side validation-->
 	<script type="text/javascript">
 		var ck_name = /^[A-Za-z0-9]{3,20}$/;
 		var ck_password =  /^[A-Za-z0-9!@#$%^&*()_=+`~,.<>'";:\|]{4,20}$/;
@@ -46,8 +53,9 @@
 	}  
     </style>
 </head>
+
 <body>
-<?php if(!isset($_SESSION['user_id'])); ?>
+<?php if(!isset($_SESSION['user_id'])): ?>
     <div class="text-center" style="padding:50px 0">
 	<div class="logo">User Login</div>
 	<center><img src="logo.png"></center><br>
@@ -70,5 +78,7 @@
 		</form>
 	</div>
 </div>
+
 </body>
+
 </html>
