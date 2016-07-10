@@ -106,10 +106,8 @@
 
                                 $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
-                                if (mysql_num_rows($result)) 
-                                {
-                                    while ($row = mysql_fetch_assoc($result)) 
-                                    {
+                                if (mysql_num_rows($result)) {
+                                    while ($row = mysql_fetch_assoc($result)) {
                                         echo "<td>{$rank}</td>
                                         <td>{$row['username']}</td>
                                         <td>{$row['points']}</td>
@@ -118,12 +116,6 @@
                                         $rank++;
                                     }
                                 }
-                            }
-                            catch(Exception $e)
-                            {
-                                echo $sql . "<br>" . $e->getMessage();
-                            }  
-                               
                         ?>
                      <!--<tr>
                      <td>Peter</td>
@@ -168,4 +160,6 @@
     </script>
 
 </body>
+
 </html>
+
