@@ -28,7 +28,7 @@
         <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
                 <li class="sidebar-brand">
-                    <a href="D:/login templates/landing page/landing page/landing.html">
+                    <a href="rangde/landing page/landing page/landing.php">
                         <?php try 
                                {
                                     /*** connect to database ***/
@@ -155,15 +155,10 @@
                                     }
                                 }
                             }
-<<<<<<< HEAD
                             catch(Exception $e)
                             {
                                 $e.getMessage();
                             }   
-=======
-                            catch(excptions $e)
-                            {}
->>>>>>> origin/master
                         ?>
                      <!--<tr>
                      <td>Peter</td>
@@ -192,10 +187,7 @@
                      <td><a href="www.facebook.com" </a><td>
                      </tr>-->
                      </table>
-</div>
-</div>
-</div>
-</div>
+
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
